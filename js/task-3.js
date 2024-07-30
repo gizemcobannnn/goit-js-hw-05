@@ -1,6 +1,8 @@
 //Görev 3. Arkadaş sayısına göre sırala
 
-const sortByDescendingFriendCount= (user)=>{return user.toSorted((a,b)=>b.friends.length-a.friends.length)};
+const sortByDescendingFriendCount= (user)=>{
+    return user.toSorted((a,b)=>b.friends.length-a.friends.length)
+};
   
 console.log(
     sortByDescendingFriendCount([
